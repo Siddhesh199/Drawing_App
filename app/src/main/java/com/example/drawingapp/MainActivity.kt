@@ -18,7 +18,7 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
-        drawing_view.setSizeForBrush(20.toFloat())
+        drawing_view.setSizeForBrush(10.toFloat())
 
         mImageButtonCurrentPaint = ll_paint_colors[1] as ImageButton
         mImageButtonCurrentPaint!!.setImageDrawable(
